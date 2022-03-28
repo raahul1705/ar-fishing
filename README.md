@@ -1,1 +1,15 @@
-# ar-fishing
+# FishAR: An Augmented Reality Fishing Game
+Raahul Natarrajan
+<br>CS 8395: Augmented Virtual Reality Project 3
+
+## Overview
+With AR games like Pokemon GO and Harry Potter: Wizards Unite, it has become possible to bring fictoinal elements from these worlds like Pokemon and wizards into real space and engage with them in a more immersive manner in comparison to a non-AR 3D mobile game. So, we can observe that AR technologies can help with creating a generally more immersive gaming experience for users. To this end, I would like to construct an immersive mobile AR game to explore how to create games that are enhanced and become more immersive with the addition of AR elements. Specifically, I would like develop an AR fishing game that allows users to fish without going to an actual fishing spot in real life. With an AR fishing game, more people would be exposed to fishing and decided whether or not they are interested in pursuing fishing as a hobby.
+
+## Design
+For FishAR, the user starts the game through a basic start menu. Once the game is loaded, the user will have to look around their area to find a flat surface to place their fishing spot. The fishing spot will be a small lake that the users will fish from. Once a plane is detected in the real world, and outline of the plane will appear and the user can then select the plane to place the lake on top of it. Next, the user will be presented with a prompt to fish by clicking the lake on the screen. This action is akin to casting a line in real fishing. Once the user casts the line by clicking the lake, the game will show a fishing line being thrown from the screen to the placed lake. After this step, the user will wait for a few seconds until they get a bite on the line. The timing for geting a bite will be a few seconds to make sure that the gameplay is more engaging and less boring by decreasing the wait time. After the user gets a bite, they will be prompted to reel the line using a button prompt on the screen. Once the button prompt is selected, the user will catch the fish and they can view the fish they caught. They can press a continue button after the fish is displayed to continue fishing. The gameplay loop will continue as such: cast the line, reel in catch, view catch, repeat. The user can quit the game by exiting the mobile app or using the menu button on the game screen to exit.
+
+## Methods
+I will be using Unity 2020.3.17f1 as the game engine and Unity AR Foundation as the AR toolkit for this project. AR Foundation is a cross-platform AR SDK provided by Unity to build AR applications for both iOS and Android devices. To source 3D models, I will be using free assets from the Unity Asset Store and Sketchfab. I will also use Blender to model very simple objects if needed. 
+
+## Conclusion
+In sum, I will be using Unity and AR Foundation to develop an AR fishing game that lets users fish from anywhere in their world. This game will give a gamified fishing experience that lets users try out fishing before actually going to fish in real life or supplement their fishing needs should they be unable to fish in real life. 
